@@ -1,7 +1,7 @@
 node("docker") {
     docker.withRegistry('birla01/docker2ec2', '6860942e-27fa-4e10-925a-de2613662b94') {
     
-        git url: "https://github.com/birla01/docker-base-tester-behat.git", credentialsId: 'birla01'
+        git url: "https://github.com/birla01/docker-base-tester-behat.git", credentialsId: '6860942e-27fa-4e10-925a-de2613662b94'
     
         sh "git rev-parse HEAD > .git/commit-id"
         def commit_id = readFile('.git/commit-id').trim()
