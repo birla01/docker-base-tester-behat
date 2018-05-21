@@ -1,10 +1,10 @@
 {
-    "name": "nimbleci/docker-base-tester-behat",
+    "name": "birla01/docker-base-tester-behat",
     "license": "MIT",
     "authors": [
         {
             "name": "Emmet O'Grady",
-            "email": "emmet@nimbleci.com"
+            "email": "er.birlaajay@gmail.com"
         }
     ],
     "minimum-stability": "stable",
